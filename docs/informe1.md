@@ -6,6 +6,17 @@
 ### Creación y uso de repositorios locales y remotos
 
 ### Comandos Git ejecutados desde terminal y desde IDE
+    Utilizamos los siguientes comandos:
+    - git clone
+    - git add
+    - git commit -m ""
+    - git pull
+    - git push
+    - git log
+    - git status
+    - git branch
+    - git checkout
+    - git merge
 
 ##  Versionado
 
