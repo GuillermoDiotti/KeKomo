@@ -22,6 +22,9 @@
 ##  Versionado
 
 ### Aplicar buenas prácticas de versionado
+    A lo largo del proyecto, dimos uso de buenas prácticas del versionado. Un ejemplo de estas son;
+    - Se utilizaron nombres claros y concisos para cada commit, indicando cada cambio realizado.
+    - Se creó una rama develop, en donde se guardaba cada cambio. Al verificar que haya quedado todo bien, se vinvulaba esta rama con la rama main.
 
 ### Uso de ramas separadas de 'main'
 
