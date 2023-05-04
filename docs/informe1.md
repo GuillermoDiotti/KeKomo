@@ -4,6 +4,7 @@
 ## Repositorio Git
 
 ### Creación y uso de repositorios locales y remotos
+    A partir del repositorio remoto creado, cada integrante creó un repositorio local en su dispositivo, teniendo cada uno de estos los archivos del proyecto a mano. Cada vez que se realizaba un cambio, luego de capturarlo en el repositorio local, se lo pusheaba al repositorio remoto, debiendo el otro integrante a actualizar su repositorio local con los nuevos cambios. Lo mismo ocurría viceversamente.
 
 ### Comandos Git ejecutados desde terminal y desde IDE
     Utilizamos los siguientes comandos:
