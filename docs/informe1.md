@@ -44,6 +44,55 @@
 
 ### Definición de requerimientos funcionales y no funcionales
 
+#### Requerimientos Funcionales
+    
+    RF#1:
+    - *Titulo:* Iniciar Sesión
+    - *Descripción:* El usuario debe iniciar sesión al sistema con su cédula
+    - *Prioridad:* Media
+
+    RF#2:
+    - *Titulo:* Informar menú
+    - *Descripción:* El colegio debe informar acerca del menú mensual a fin de cada mes
+    - *Prioridad:* Alta
+
+    RF#3:
+    - *Titulo:* Plataforma para pagar
+    - *Descripción:* El usuario puede optar por pagar el menú desde la aplicación o por ejemplo, incluirlo a la cuota del colegio
+    - *Prioridad:* Alta
+
+    RF#4:
+    - *Titulo:* Momento para pagar
+    - *Descripción:* El usuario puede optar por pagar el menú desde el mismo día realizado el consumo, hasta el día anterior transcurrido el mes
+    - *Prioridad:* Alta
+
+    RF#5:
+    - *Titulo:* Tarjetas para pagar
+    - *Descripción:* El sistema debe aceptar tarjetas de crédito o débito como medio de pago
+    - *Prioridad:* Alta
+
+    RF#6:
+    - *Titulo:* Generar factura
+    - *Descripción:* El sistema debe generar una factura en el mismo día realizado el consumo, indicando dicho consumo del alumno
+    - *Prioridad:* Alta
+
+    RF#7:
+    - *Titulo:* Gestionar reserva
+    - *Descripción:* El usuario puede gestionar la reserva del menú para cualquier día dentro del mes, eligiendo que alimentos del menú desea reservar
+    - *Prioridad:* Alta
+
+    RF#8:
+    - *Titulo:* Contactar institución
+    - *Descripción:* El usuario puede contactarse con el colegio, en caso de, por ejemplo, algún inconveniente
+    - *Prioridad:* Alta
+
+    RF#9:
+    - *Titulo:* Información nutricional
+    - *Descripción:* El usuario puede, si desea, ver la información nutricional de los alimentos del menú
+    - *Prioridad:* Alta
+
+#### Requerimientos no funcionales
+
 ### User Stories / Use Cases detallados
 
 ### Bocetos de IU
