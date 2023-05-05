@@ -38,20 +38,20 @@
 
 #### Cuestionarios
     El siguiente cuestionario tiene como público objetivo a alumnos del centro educativo
-    ![Cuestionario1](imagenes/encuestas/encuesta1.1.PNG)
-    ![Cuestionario1](imagenes/encuestas/encuesta2.1.PNG)
-    ![Cuestionario1](imagenes/encuestas/encuesta3.1.PNG)
+    ![Cuestionario1](../elicitacion/encuestas/encuesta1.1.png)
+    ![Cuestionario1](../elicitacion/encuestas/encuesta2.1.png)
+    ![Cuestionario1](../elicitacion/encuestas/encuesta3.1.png)
 
     El siguiente cuestionario tiene como público objetivo a usuarios de la aplicación, es decir, padres/ madres/ tutores
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.1.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.2.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.3.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.4.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.5.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.6.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.7.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.8.PNG)
-    ![Cuestionario2](../elicitacion/encuestas/encuesta2.9.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.1.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.2.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.3.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.4.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.5.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.6.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.7.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.8.png)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.9.png)
 
 #### Ingenieria_Inversa
 
