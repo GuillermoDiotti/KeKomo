@@ -27,6 +27,7 @@
     - Se creó una rama develop, en donde se guardaba cada cambio. Al verificar que haya quedado todo bien, se vinvulaba esta rama con la rama main.
 
 ### Uso de ramas separadas de 'main'
+Como ya se mencionó, utilizamos una rama develop. Al añadir los cambios realizados del working directory a la staging area, se hacia un commit en principio a la rama develop, luego de verificar, se la vinculaba a la main.
 
 ### Resumen de commits y evolución del proyecto
 
@@ -35,6 +36,8 @@
 ### Evidencia de actividades de investigación
 
 #### Entrevistas
+Entrevista a Auxiliar de Servicio de Colegio San Juan Bautista
+![Entrevista](../elicitacion/entrevistas/entrevista1.md)
 
 #### Cuestionarios
     El siguiente cuestionario tiene como público objetivo a alumnos del centro educativo
@@ -54,6 +57,8 @@
     ![Cuestionario2](../elicitacion/encuestas/encuesta2.9.png)
 
 #### Ingenieria_Inversa
+Otra técnica de elicitación que utilizamos en este proyecto fue la de ingeniería inversa. Investigando, encontramos una aplicación perteneciente al rubro del problema. La información acerca de dicha aplicación se encuentra en el siguiente archivo; 
+![Encuesta 3](../elicitacion/ingenieria%20inversa/menutech.md)
 
 #### User Personas
     Perfil/ Características: Ana, madre de 2 niños en Primaria
@@ -91,6 +96,8 @@
     [**DOCUMENTACIÓN**](https://github.github.com) 
 
 ### Caracterización de usuarios: User Personas
+El link siguiente dirige a la caracterización de usuarios realizada.
+![User Personas](../elicitacion/user%20Personas/userPersonas.md)
 
 ### Modelo Conceptual del problema
 Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
@@ -188,6 +195,9 @@ Comensal: Persona que consume sus órdenes en el comedor.
     La aplicación se puede usar por la web, como también por descarga.
 
 ### User Stories / Use Cases detallados
+En los siguientes archivos se puede encontrar detallados los UseCases y UserStories
+![User Stories](../elicitacion//user-stories/userStories.md)
+![Use Cases](../elicitacion///use-cases/useCases.md)
 
 ### Bocetos de IU
     Los siguientes bocetos están destinados para el usuario:
