@@ -93,8 +93,25 @@
 ### Caracterización de usuarios: User Personas
 
 ### Modelo Conceptual del problema
-    Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
-    MER: ![MER](imagenes/MER.PNG)
+Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
+
+MER: ![MER](imagenes/MER.PNG)
+
+Glosario:
+
+Dias de la semana: Consideramos que los días de la semana se consideran de Lunes a Viernes para ver que Menú hay en estos días.
+
+Usuarios: Consideramos que los usuarios son los responsables de los alumnos siendo Padre/ Madre/ Tutor.
+
+Gerente de cocina: Es rol dentro de la cocina del comedor encargada de la parte de ventas.
+
+Reservas: Para que un alumno pueda comer del comedor, este debe reservar un lugar por sus responsables.
+
+Auxiliar de Servicio/Cocinero: Personas que son responsables de cocinar las comidas para los alumnos.
+
+Maestro: Persona al mando de formar académicamente a sus alumnos.
+
+Comensal: Persona que consume sus órdenes en el comedor.
 
 ## Especificación
 
