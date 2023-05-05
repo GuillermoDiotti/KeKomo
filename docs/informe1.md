@@ -39,7 +39,9 @@
 ### Caracterización de usuarios: User Personas
 
 ### Modelo Conceptual del problema
-
+    Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
+    MER: ![MER](imagenes/MER.PNG)
+    
 ## Especificación
 
 ### Definición de requerimientos funcionales y no funcionales
