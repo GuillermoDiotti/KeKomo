@@ -43,15 +43,15 @@
     ![Cuestionario1](imagenes/encuestas/encuesta3.1.PNG)
 
     El siguiente cuestionario tiene como público objetivo a usuarios de la aplicación, es decir, padres/ madres/ tutores
-    ![Cuestionario2](imagenes/encuestas/encuesta2.1.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.2.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.3.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.4.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.5.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.6.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.7.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.8.PNG)
-    ![Cuestionario2](imagenes/encuestas/encuesta2.9.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.1.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.2.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.3.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.4.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.5.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.6.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.7.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.8.PNG)
+    ![Cuestionario2](../elicitacion/encuestas/encuesta2.9.PNG)
 
 #### Ingenieria_Inversa
 
@@ -149,16 +149,37 @@
 
 #### Requerimientos no funcionales
 
+-RNF#1:
+    El sistema debe soportar 500 personas realizando una reserva en forma simultánea sin una degradación del tiempo de respuesta mayor a 5 segundos.
+
+-RNF#2:
+    La interfaz de usuario de la aplicación será HTML5 y Javascript.
+
+-RNF#3:
+    Los usuarios tendrán disponibles aplicaciones móviles compatibles con IOS 13 o superior y con Android 8 Oreo o superior.
+
+-RNF#4:
+    Las aplicaciones de usuarios deben cumplir con las condiciones para ser publicables en Apple Store y Google Play Store.
+
+-RNF#5:
+    La aplicación no debe pesar más de 500 mb.
+
+-RNF#6:
+    La aplicación debe ser responsiva.
+
+-RNF#7:
+    La aplicación se puede usar por la web, como también por descarga.
+
 ### User Stories / Use Cases detallados
 
 ### Bocetos de IU
     Los siguientes bocetos están destinados para el usuario:
-    ![Inicio](imagenes/bocetos/boceto1.1.PNG)
-    ![Perfil](imagenes/bocetos/boceto1.2.PNG)
-    ![Opciones del menu](imagenes/bocetos/boceto1.3.PNG)
-    ![Gestionar el menu](imagenes/bocetos/boceto1.4.PNG)
-    ![Estado de cuenta](imagenes/bocetos/boceto1.5.PNG)
-    ![Contactar institucion](imagenes/bocetos/boceto1.6.PNG)
+    ![Inicio](../bocetos/boceto1.1.png)
+    ![Perfil](../bocetos/boceto1.2.png)
+    ![Opciones del menu](../bocetos/boceto1.3.png)
+    ![Gestionar el menu](../bocetos/boceto1.4.png)
+    ![Estado de cuenta](../bocetos/boceto1.5.png)
+    ![Contactar institucion](../bocetos/boceto1.6.png)
 
     Los siguientes bocetos están destinados para empleados del comedor:
 ## Validación y verificación
