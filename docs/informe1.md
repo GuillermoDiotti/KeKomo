@@ -35,13 +35,15 @@
 ### Evidencia de actividades de investigación
 
 ### Referencias a fuentes de información
+    Como principal fuente de información, utilizamos la documentación de archivos Markdown. La misma se puede encontrar a través del siguiente enlace;
+    [**DOCUMENTACIÓN**](https://github.github.com) 
 
 ### Caracterización de usuarios: User Personas
 
 ### Modelo Conceptual del problema
     Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
     MER: ![MER](imagenes/MER.PNG)
-    
+
 ## Especificación
 
 ### Definición de requerimientos funcionales y no funcionales
