@@ -95,7 +95,7 @@
 ### Modelo Conceptual del problema
 Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
 
-MER: ![MER](imagenes/MER.PNG)
+MER: ![MER](../imagenes/MER.png)
 
 Glosario:
 
@@ -166,25 +166,25 @@ Comensal: Persona que consume sus órdenes en el comedor.
 
 #### Requerimientos no funcionales
 
--RNF#1:
+    -RNF#1:
     El sistema debe soportar 500 personas realizando una reserva en forma simultánea sin una degradación del tiempo de respuesta mayor a 5 segundos.
 
--RNF#2:
+    -RNF#2:
     La interfaz de usuario de la aplicación será HTML5 y Javascript.
 
--RNF#3:
+    -RNF#3:
     Los usuarios tendrán disponibles aplicaciones móviles compatibles con IOS 13 o superior y con Android 8 Oreo o superior.
 
--RNF#4:
+    -RNF#4:
     Las aplicaciones de usuarios deben cumplir con las condiciones para ser publicables en Apple Store y Google Play Store.
 
--RNF#5:
+    -RNF#5:
     La aplicación no debe pesar más de 500 mb.
 
--RNF#6:
+    -RNF#6:
     La aplicación debe ser responsiva.
 
--RNF#7:
+    -RNF#7:
     La aplicación se puede usar por la web, como también por descarga.
 
 ### User Stories / Use Cases detallados
