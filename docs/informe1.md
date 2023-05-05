@@ -37,9 +37,9 @@
 #### Entrevistas
 
 #### Cuestionarios
-    ![Cuestionario1](imagenes/encuesta1.1.PNG)
-    ![Cuestionario1](imagenes/encuesta2.1.PNG)
-    ![Cuestionario1](imagenes/encuesta3.1.PNG)
+    ![Cuestionario1](imagenes/encuestas/encuesta1.1.PNG)
+    ![Cuestionario1](imagenes/encuestas/encuesta2.1.PNG)
+    ![Cuestionario1](imagenes/encuestas/encuesta3.1.PNG)
 #### Ingenieria_Inversa
 
 ### Referencias a fuentes de información
@@ -109,12 +109,12 @@
 
 ### Bocetos de IU
     Los siguientes bocetos están destinados para el usuario:
-    ![Inicio](imagenes/boceto1.1.PNG)
-    ![Perfil](imagenes/boceto1.2.PNG)
-    ![Opciones del menu](imagenes/boceto1.3.PNG)
-    ![Gestionar el menu](imagenes/boceto1.4.PNG)
-    ![Estado de cuenta](imagenes/boceto1.5.PNG)
-    ![Contactar institucion](imagenes/boceto1.6.PNG)
+    ![Inicio](imagenes/bocetos/boceto1.1.PNG)
+    ![Perfil](imagenes/bocetos/boceto1.2.PNG)
+    ![Opciones del menu](imagenes/bocetos/boceto1.3.PNG)
+    ![Gestionar el menu](imagenes/bocetos/boceto1.4.PNG)
+    ![Estado de cuenta](imagenes/bocetos/boceto1.5.PNG)
+    ![Contactar institucion](imagenes/bocetos/boceto1.6.PNG)
 
     Los siguientes bocetos están destinados para empleados del comedor:
 ## Validación y verificación
