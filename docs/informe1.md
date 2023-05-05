@@ -172,4 +172,16 @@
 ### Detalle del trabajo individual
 
 ### Técnicas aplicadas y aprendizajes
-
+    **Técnicas utilizadas:** 
+    - User personas
+    - Encuestas
+    - Entrevistas
+    - Use cases
+    - Ingenieria inversa
+    - Aplicación de UI 
+    - Verificación y Validación del proyecto
+    - Técnicas de versionado 
+    - User personas
+    - Requerimientos funcionales y no funcionales
+    - Modelo conceptual
+    - User stories
