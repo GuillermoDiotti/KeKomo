@@ -34,6 +34,14 @@
 
 ### Evidencia de actividades de investigación
 
+#### Entrevistas
+
+#### Cuestionarios
+    ![Cuestionario1](imagenes/encuesta1.1.PNG)
+    ![Cuestionario1](imagenes/encuesta2.1.PNG)
+    ![Cuestionario1](imagenes/encuesta3.1.PNG)
+#### Ingenieria_Inversa
+
 ### Referencias a fuentes de información
     Como principal fuente de información, utilizamos la documentación de archivos Markdown. La misma se puede encontrar a través del siguiente enlace;
     [**DOCUMENTACIÓN**](https://github.github.com) 
