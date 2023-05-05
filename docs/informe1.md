@@ -37,9 +37,22 @@
 #### Entrevistas
 
 #### Cuestionarios
+    El siguiente cuestionario tiene como público objetivo a alumnos del centro educativo
     ![Cuestionario1](imagenes/encuestas/encuesta1.1.PNG)
     ![Cuestionario1](imagenes/encuestas/encuesta2.1.PNG)
     ![Cuestionario1](imagenes/encuestas/encuesta3.1.PNG)
+
+    El siguiente cuestionario tiene como público objetivo a usuarios de la aplicación, es decir, padres/ madres/ tutores
+    ![Cuestionario2](imagenes/encuestas/encuesta2.1.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.2.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.3.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.4.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.5.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.6.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.7.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.8.PNG)
+    ![Cuestionario2](imagenes/encuestas/encuesta2.9.PNG)
+
 #### Ingenieria_Inversa
 
 ### Referencias a fuentes de información
