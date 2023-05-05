@@ -96,7 +96,15 @@
 ### User Stories / Use Cases detallados
 
 ### Bocetos de IU
+    Los siguientes bocetos están destinados para el usuario:
+    ![Inicio](imagenes/boceto1.1.PNG)
+    ![Perfil](imagenes/boceto1.2.PNG)
+    ![Opciones del menu](imagenes/boceto1.3.PNG)
+    ![Gestionar el menu](imagenes/boceto1.4.PNG)
+    ![Estado de cuenta](imagenes/boceto1.5.PNG)
+    ![Contactar institucion](imagenes/boceto1.6.PNG)
 
+    Los siguientes bocetos están destinados para empleados del comedor:
 ## Validación y verificación
 
 ### Verificar la especificación
