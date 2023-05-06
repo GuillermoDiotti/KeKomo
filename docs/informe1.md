@@ -239,6 +239,47 @@ Los siguientes bocetos están destinados para empleados del comedor:
 
 ### Verificar la especificación
 
+#### Checklist requerimientos
+
+##### Completitud
+
+- ¿Se encuentran todos los requerimientos correctamente priorizados? Sí
+- ¿Son todas las clases de usuarios identificados y sus características descriptas? Sí
+- ¿Respeta la especificación la estructura y apartados del estándar? Sí
+- ¿Se identifican y describen las dependencias con otros sitemas? Sí
+- ¿Están todas las características de calidad tenidas en cuenta en la especificación? Sí
+
+##### Verificabilidad y no ambiguedad
+
+- ¿Tiene cada requerimiento una única interpretación? Sí
+- ¿Puede der cada requerimiento verificado por alguna prueba, demostración, revisión o análisis? Sí
+
+##### Correctitud y consistencia
+
+- ¿Están los requerimentos escritos en forma consistente y a un nivel de detalle adecuado? Sí
+- ¿Existe duplicación de requerimientos o conflicto entre requerimientos? No
+- ¿Está cada requerimiento dentro del alcance del problema a resolver? Sí
+- ¿Evitan los requerimientos incluir aspectos de diseño o implementación de la solución? Sí
+
+##### Trazabilidad
+
+- ¿Puede cada requerimiento ser identificado correctamente y en forma única? Sí
+- ¿Se referencian correctamente los requerimientos entre sí? Sí
+- ¿Puede cada requerimiento ser referenciado hasta su origen (alguna necesidad de los stakeholders)? Sí
+
+
+#### Checklist casos de uso
+
+- ¿Cumple el caso de uso un único objetivo o tarea? Sí
+- ¿Es su objetivo un resultado medible para el usuario? Sí
+- ¿Queda claro de actor(es) participan y benefician el caso de uso? Sí
+- ¿Existe una secuencia lógica en los pasos que permita entender la transacción entre actor y sistema? Sí
+- ¿Es el nivel de abstracción de las transacciones adecuado para el caso de uso? Sí
+- ¿Está el caso de uso libre de detalles de diseño e implementación de posibles soluciones? Sí
+- ¿Se documentan todos los posibles cursos alternativos y excepcionales? Sí
+- ¿Existen pre y pos condiciones que contextualicen correctamente el caso de uso? No
+
+
 ### Validar la solución con personas no involucradas en el proyecto
 
 ## Reflexión
