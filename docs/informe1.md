@@ -200,6 +200,12 @@ En los siguientes archivos se puede encontrar detallados los UseCases y UserStor
 ![Use Cases](../elicitacion///use-cases/useCases.md)
 
 ### Bocetos de IU
+Los siguientes bocetos son meramente ilustrativos y describen la funcionalidad de la pagina, 
+los diseños pueden cambiar en el resultado final del proyecto.
+
+    La pagina principal es la siguiente:
+    ![Main](../bocetos/boceto1.0.jpg)
+
     Los siguientes bocetos están destinados para el usuario:
     ![Inicio](../bocetos/boceto1.1.png)
     ![Perfil](../bocetos/boceto1.2.png)
@@ -209,6 +215,9 @@ En los siguientes archivos se puede encontrar detallados los UseCases y UserStor
     ![Contactar institucion](../bocetos/boceto1.6.png)
 
     Los siguientes bocetos están destinados para empleados del comedor:
+    ![TareasPendientes](../bocetos/boceto2.1.png)
+    ![TareasCompletadas](../bocetos/boceto2.2.png)
+
 ## Validación y verificación
 
 ### Verificar la especificación
