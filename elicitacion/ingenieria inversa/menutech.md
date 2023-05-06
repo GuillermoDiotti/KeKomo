@@ -4,7 +4,7 @@
 
 ### Inicio
 - Al crear una cuenta, se puede elegir cuál  va a ser el propósito de la aplicación. Los propósitos disponibles se pueden ver en la siguiente foto. 
-![Iniciar sesión](./ingenieria_inversa1.PNG)
+![Iniciar sesión](./ingenieria_inversa1.png)
 
 - Tras elegir el propósito de la aplicación, tomando como referencia el propósito de menú escolar, se puede elegir características del producto, tanto como qué tipo de menú como la frecuencia de este. 
 ![Propósito](./Ingenieria_Inversa2.png)
