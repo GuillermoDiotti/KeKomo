@@ -49,23 +49,10 @@ Se fue con la idea de obtener de la misma, la estructura y manejo del comedor es
 
 #### Cuestionarios
 
-El siguiente cuestionario tiene como público objetivo a alumnos del centro educativo
+[Encuesta](../elicitacion/encuestas/encuestas.md)
 
-![Cuestionario1](../elicitacion/encuestas/encuesta1.1.png)
-![Cuestionario1](../elicitacion/encuestas/encuesta2.1.png)
-![Cuestionario1](../elicitacion/encuestas/encuesta3.1.png)
-
-El siguiente cuestionario tiene como público objetivo a usuarios de la aplicación, es decir, padres/ madres/ tutores
-
-![Cuestionario2](../elicitacion/encuestas/encuesta2.1.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.2.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.3.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.4.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.5.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.6.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.7.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.8.png)
-![Cuestionario2](../elicitacion/encuestas/encuesta2.9.png)
+Encuesta realizada a alumnos y responsables de estos. Las encuestas se realizaron de forma virtual. 
+El objetivo de las encuestas fue aprender y entender como ambas partes hacían uso, en el caso de existir, de una aplicación de este tipo, y sobre la opinión sobre el responsable del objetivo del proyecto.
 
 #### Ingenieria_Inversa
 
