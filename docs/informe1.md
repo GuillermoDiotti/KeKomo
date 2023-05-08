@@ -278,6 +278,11 @@ Para verificar si todos los siguientes atributos fueron aplicados a los casos de
 
 ### Validar la solución con personas no involucradas en el proyecto
 
+En este apartado, una de las personas por la cual nos decantamos por contrastar nuestro resultado final fue Cristy Bertinat, Auxiliar de Servicio de Colegio San Juan Bautista de Colonia del Sacramento, a quién entrevistamos anteriormente. La razón principalmente fue porque ella sabe lo que es estar del lado de los dos usuarios definidos en nuestro proyecto, pues se desempeña como Auxiliar de Servicio (preparando las comidas para los estudiantes), y al mismo tiempo tiene un hijo concurriendo a dicho colegio.
+Comentado todo el avance que tuvo el proyecto, se procedió a mostrarle los bocetos realizados, para emular asi la experiencia de usuario que tendria por las diferentes partes de la app. En primer lugar, probo la interfaz de "responsable", comentando que bajo su punto de vista, era bastante intuitiva y permitía hacer todo lo que a ella le gustaría poder realizar con las reservas de comida diarias de su hijo.
+Llegando al apartado de los bocetos correspondiente al usuario "cocinero", menciona que le parece una buena idea el hecho de que aparezcan todas las reservas y que al irlas completando se vayan hacia otra sección. Sin embargo, informó que ellos suelen preparar las reservas de a minimo 2 personas, es decir, que hay siempre mas de una persona designada a preparar los platos, por lo que cree que se debería implementar algo que avise que una determinada reserva se encuentra en progreso para que la misma no sea realizada por error mas de 1 vez.
+Finalmente, aclaró que esta interfaz también le pareció bastante creativa y especialmente útil para las labores del día a día en su sector.
+
 ## Reflexión
 
 ### Detalle del trabajo individual
