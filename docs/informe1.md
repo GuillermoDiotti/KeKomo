@@ -35,6 +35,9 @@ Como ya se mencionó, utilizamos una rama develop. Al añadir los cambios realiz
 
 ### Resumen de commits y evolución del proyecto
 
+A través del siguiente enlace se puede visualizar, en forma sintetizada, un breve resúmen de la evolución del proyecto
+[Evolución](../historial-evoluci%C3%B3n/commits.md)
+
 ## Elicitación
 
 ### Evidencia de actividades de investigación
