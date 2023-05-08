@@ -292,6 +292,8 @@ Finalmente, aclaró que esta interfaz también le pareció bastante creativa y e
 
 [Trabajo Individual Juan Peyrot](../reflexiones/Reflexion-Peyrot.md)
 
+[Trabajo Individual Guillermo Diotti](../reflexiones/Reflexion-Diotti.md)
+
 ### Técnicas aplicadas y aprendizajes
 
 En cuanto a las tecnicas aplicadas y aprendizajes se refiere, nos pusimos de acuerdo rapidamente en realizar un formato de commits, que describa brevemente los cambios realizados y en que parte del proyecto se efectuaron. Ademas, la comunicacion en el equipo fue fomentada desde el inicio, con el fin de saber en que cosa estaba trabajando el otro constantemente, dando muy buenos resultados, pues no hubo ningun conflicto a la hora de subir los cambios al repositorio remoto.
