@@ -41,9 +41,11 @@ Como ya se mencionó, utilizamos una rama develop. Al añadir los cambios realiz
 
 #### Entrevistas
 
-Entrevista a Auxiliar de Servicio de Colegio San Juan Bautista
+Entrevista a Auxiliar de Servicio de Colegio San Juan Bautista.
+Se entrevistó a una Auxiliar de Servicio del mencionado instituto educativo. De manera presencial.
+Se fue con la idea de obtener de la misma, la estructura y manejo del comedor escolar, para asi poder analizar mejores soluciones y poder llevar dicho procedimiento a un area digital mediante una aplicación.
 
-![Entrevista](../elicitacion/entrevistas/entrevista1.md)
+[Entrevista](../elicitacion/entrevistas/entrevista1.md)
 
 #### Cuestionarios
 
