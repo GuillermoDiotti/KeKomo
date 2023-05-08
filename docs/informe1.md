@@ -58,7 +58,7 @@ El objetivo de las encuestas fue aprender y entender como ambas partes hacían u
 
 Otra técnica de elicitación que utilizamos en este proyecto fue la de ingeniería inversa. Investigando, encontramos una aplicación perteneciente al rubro del problema. La información acerca de dicha aplicación se encuentra en el siguiente archivo; 
 
-![Ing. Inversa](../elicitacion/ingenieria%20inversa/menutech.md)
+[Ing. Inversa](../elicitacion/ingenieria%20inversa/menutech.md)
 
 #### User Personas
 
@@ -96,6 +96,9 @@ Objetivos o expectativas: espero que el sistema nos oriente a gastar menos
 
 Como principal fuente de información, utilizamos la documentación de archivos Markdown. La misma se puede encontrar a través del siguiente enlace;
 [**DOCUMENTACIÓN**](https://github.github.com) 
+
+Otra gran fuente de información utilizada fue la página web de la aplicación similar encontrada "MENUTECH". Dicha aplicación se puede encontrar a través del siguiente enlace: 
+[**MENUTECH**](https://app.menutech.com) 
 
 ### Caracterización de usuarios: User Personas
 
