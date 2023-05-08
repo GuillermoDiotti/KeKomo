@@ -1,0 +1,4 @@
+### Detalle del trabajo individual de Guillermo Diotti
+
+Mi aporte al trabajo se pudo ver en, para empezar, la parte de elicitación. En ella, me encargué de la parte de las encuestas, tanto para usuarios alumnos como para responsables. A su vez, dentro de esta temática, investigué acerca de una aplicación con objetivos similares a este proyecto para realizar la parte de ingeniería inversa. Llevado a cabo esto, realizé, a su vez, distintos perfiles de usuarios, conocidos también como "User Personas". En cuanto a la actividad de prototipación, con mi compañero Juan, decidimos cada uno realizar un prototipo orientado a distintos perfiles, tanto del lado del comedor escolar, como del lado del responable del alumno. Otra temática que abordé fue la de Requerimientos funcionales y no funcionales. 
+Por otro lado, las actividades restantes las realizamos en conjunto con mi compañero, como a su vez, toda aquella parte acerca de la estructura de la documentación.
