@@ -103,7 +103,7 @@ Otra gran fuente de información utilizada fue la página web de la aplicación 
 ### Caracterización de usuarios: User Personas
 
 El link siguiente dirige a la caracterización de usuarios realizada.
-![User Personas](../elicitacion/user%20Personas/userPersonas.md)
+[User Personas](../elicitacion/user%20Personas/userPersonas.md)
 
 ### Modelo Conceptual del problema
 Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
@@ -204,8 +204,8 @@ Para modelar el problema, utilizamos un modelo entidad relación, y un glosario
 ### User Stories / Use Cases detallados
 
 En los siguientes archivos se puede encontrar detallados los UseCases y UserStories
-![User Stories](../elicitacion//user-stories/userStories.md)
-![Use Cases](../elicitacion///use-cases/useCases.md)
+[User Stories](../elicitacion//user-stories/userStories.md)
+[Use Cases](../elicitacion///use-cases/useCases.md)
 
 ### Bocetos de IU
 
@@ -232,6 +232,8 @@ Los siguientes bocetos están destinados para empleados del comedor:
 ### Verificar la especificación
 
 #### Checklist requerimientos
+
+Para verificar si todos los siguientes atributos fueron aplicados a los requerimientos establecidos, fuimos verificando requerimiento por requerimiento con cada atributo.   
 
 ##### Completitud
 
@@ -262,6 +264,8 @@ Los siguientes bocetos están destinados para empleados del comedor:
 
 #### Checklist casos de uso
 
+Para verificar si todos los siguientes atributos fueron aplicados a los casos de uso establecidos, fuimos verificando caso por caso con cada atributo. 
+
 - ¿Cumple el caso de uso un único objetivo o tarea? Sí
 - ¿Es su objetivo un resultado medible para el usuario? Sí
 - ¿Queda claro de actor(es) participan y benefician el caso de uso? Sí
@@ -278,7 +282,13 @@ Los siguientes bocetos están destinados para empleados del comedor:
 
 ### Detalle del trabajo individual
 
+[Trabajo Individual Juan Peyrot](../reflexiones/Reflexion-Peyrot.md)
+
 ### Técnicas aplicadas y aprendizajes
+
+En cuanto a las tecnicas aplicadas y aprendizajes se refiere, nos pusimos de acuerdo rapidamente en realizar un formato de commits, que describa brevemente los cambios realizados y en que parte del proyecto se efectuaron. Ademas, la comunicacion en el equipo fue fomentada desde el inicio, con el fin de saber en que cosa estaba trabajando el otro constantemente, dando muy buenos resultados, pues no hubo ningun conflicto a la hora de subir los cambios al repositorio remoto.
+Trabajamos cada uno con una copia del repositorio remoto de manera local, efectuando los cambios en una rama separada de la principal (en nuestro caso, llamada develop), y luego de pusheados, comentando al compañero de los cambios realizados.
+En cuanto a una actividad que no nos resultó sencilla, fue la parte de elicitación, concretamente la perte de entrevista. Nos resultó difícil ponernos en contacto con alguna persona perteneciente al rubro de comedor escolar.
 
 #### Técnicas utilizadas:
 - User personas
