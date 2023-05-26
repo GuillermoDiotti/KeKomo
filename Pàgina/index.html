@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Ke Komo</title>
+		<link rel="stylesheet"  href="css/styles.css"> 
+		<script src="js/clases.js"></script>
+		<script src="js/functions.js"></script>
+    </head>
+    <body>
+  
+		<nav>
+			<a href="#idInfo" class="link">Sobre Nosotros</a>
+			<a href="#idMenu" class="link">Ver Menú Mensual</a>
+			<a href="#idPayment" class="link">Estado de Cuenta</a>
+			<a href="#idContact" class="link">Contactar Institución</a>
+			<table calss="account">
+				<tbody>
+					<tr>
+						<td>
+							<img id="idAvatar" src="img/avatar.png" alt="Avatar">
+						</td>
+						<td>
+							<a href="#id" class="link">Felipe Gonzalez</a>
+						</td>
+							
+					</tr>
+				</tbody>
+			</table>
+		</nav>
+		<header>
+			<h1>Bienvenid@ a Ke Komo</h1>
+			<br/>
+			<img id="idLogo" src="img/logo.png" alt="Logo">
+		</header>
+		<aside>
+		<h1>Detalle: </h1>
+		<br/>
+		<h3>Plato Principal: </h3>
+		<label for="idOption1">
+			<p id="idMain"></p>
+		</label>
+		<input type="checkbox" id="idOption1" name="option1" value="option1">
+		<br/>
+		<h3>Plato Alternativo: </h3>
+		<label for="idOption2">
+			<p id="idSecondary"></p>
+		</label>
+		<input type="checkbox" id="idOption2" name="option2" value="option2">
+		<br/>
+		<h3>Postre: </h3>
+		<label for="idOption3">
+			<p id="idDessert"></p>
+		</label>
+		<input type="checkbox" id="idOption3" name="option3" value="option3">
+		<br/>
+		<label for="idAmount">
+			<h3>Cantidad: </h3>
+		</label>							
+		<input type="number" id="idAmount" name="amount" class="box" min=0 required>
+		<br/>
+		<h3>Precio: </h3>
+		<button id="price" class="day">Ver Precio</button>
+		<p id ="idPrice"></p>						
+		<br/>
+		<button id="idReservation" class="day">Reservar</button>
+		<br/>
+		</aside>
+		<section>
+			<article>
+				<a id="idInfo">
+					<h2>Sobre Nosotros</h2>
+				</a>
+				<p>
+				  Somos una empresa la cual se dedica y enfoca con gran esfuerzo al área 
+				  de comedor dentro de instituciones privadas. Nuestra aparición en el
+				  mercado se debe al resultado de una profunda investigación donde se
+				  notaba una notoria falta de información dentro de este rubro.
+				</p>
+				<p>
+				  Nuestros objetivos se basan en equilibrar y aumentar el nivel de
+				  información entre las partes como los miembros de cocina de dicha
+				  institución, y aquellos responsables del alumno concurrido al
+				  instituto.
+				</p>
+			</article>
+			<br/>
+			<br/>
+			<article>
+				<a id="idMenu">
+					<h2>Menú Mensual</h2>
+				</a>
+				<table class="idCalendar">
+					<thead>
+						<caption>
+							<p id="idCaption">Instituto: Colegio Jesús María</p>
+						</caption>
+						<caption>
+							<p id="idCaption">Setiembre</p>
+						</caption>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Domingo</th>
+							<th>Lunes</th>
+							<th>Martes</th>
+							<th>Miércoles</th>
+							<th>Jueves</th>
+							<th>Viernes</th>
+							<th>Sábado</th>
+						</tr>
+						<tr>
+							<td>
+								<button id="idDay1" class="day">1</button>
+							</td>
+							<td>
+								<button id="idDay2" class="day">2</button>
+							</td>
+							<td>
+								<button id="idDay3" class="day">3</button>
+							</td>
+							<td>
+								<button id="idDay4" class="day">4</button>
+							</td>
+							<td>
+								<button id="idDay5" class="day">5</button>
+							</td>
+							<td>
+								<button id="idDay6" class="day">6</button>
+							</td>
+							<td>
+								<button id="idDay7" class="day">7</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button id="idDay8" class="day">8</button>
+							</td>
+							<td>
+								<button id="idDay9" class="day">9</button>
+							</td>
+							<td>
+								<button id="idDay10" class="day">10</button>
+							</td>
+							<td>
+								<button id="idDay11" class="day">11</button>
+							</td>
+							<td>
+								<button id="idDay12" class="day">12</button>
+							</td>
+							<td>
+								<button id="idDay13" class="day">13</button>
+							</td>
+							<td>
+								<button id="idDay14" class="day">14</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button id="idDay15" class="day">15</button>
+							</td>
+							<td>
+								<button id="idDay16" class="day">16</button>
+							</td>
+							<td>
+								<button id="idDay17" class="day">17</button>
+							</td>
+							<td>
+								<button id="idDay18" class="day">18</button>
+							</td>
+							<td>
+								<button id="idDay19" class="day">19</button>
+							</td>
+							<td>
+								<button id="idDay20" class="day">20</button>
+							</td>
+							<td>
+								<button id="idDay21" class="day">21</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button id="idDay22" class="day">22</button>
+							</td>
+							<td>
+								<button id="idDay23" class="day">23</button>
+							</td>
+							<td>
+								<button id="idDay24" class="day">24</button>
+							</td>
+							<td>
+								<button id="idDay25" class="day">25</button>
+							</td>
+							<td>
+								<button id="idDay26" class="day">26</button>
+							</td>
+							<td>
+								<button id="idDay27" class="day">27</button>
+							</td>
+							<td>
+								<button id="idDay28" class="day">28</button>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button id="dDay29" class="day">29</button>
+							</td>
+							<td>
+								<button id="idDay30" class="day">30</button>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</article>
+		</section>
+	</body>
+</html>
