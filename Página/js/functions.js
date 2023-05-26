@@ -1,8 +1,52 @@
 window.addEventListener("load", init);
 let sis = new sistema();
+const fecha = new Date();
+
 
 function init() {
+	
+	console.log(fecha.getDate());
+	console.log(fecha.getFullYear());
+	console.log(fecha.getMonth() + 1);
+	console.log(fecha.getHours() + ":" + fecha.getMinutes() + ":" + fecha.getSeconds());
+	console.log(fecha.getMinutes());
+	console.log(fecha.toDateString());
+	console.log(fecha.toLocaleDateString());
+	console.log(fecha.toLocaleString());
 
+
+	load();
+	action();
+	
+	
+}
+
+function reserve(id){
+	if(document.getElementById("idPrice").innerHTML != 0){
+		let dayButton = document.getElementById(id);
+		let day = parseInt(dayButton.innerHTML);
+		for (let elem of sis.getMenu()) {
+			let d = parseInt(elem.Day);
+			if (day === d) {
+				sis.addReserva(new Reserva(fecha.toLocaleString(), "Felipe Gonzalez", "$"+calculatePrice(dayButton), "desc"));
+			}
+		}
+	}
+}
+
+function action(){
+	for (let i = 1; i <= 30; i++) {
+		document.getElementById("idDay" + i).addEventListener("click", function() { clear(); });
+		if (i !== 1 && i !== 7 && i !== 8 && i !== 14 && i !== 15 && i !== 21 && i !== 22 && i !== 28 && i !== 29) {
+		  	let id = "idDay" + i;
+			document.getElementById(id).addEventListener("click", function() { menu(id); });
+		  	document.getElementById("price").addEventListener("click", function() { setPrice(id);});
+			document.getElementById("idReservation").addEventListener("click", function() { reserve(id);});
+		}
+	}
+}
+
+function load(){
 	loadMenu2();
 	loadMenu3();
 	loadMenu4();
@@ -24,16 +68,6 @@ function init() {
 	loadMenu26();
 	loadMenu27();
 	loadMenu30();
-
-	for (let i = 1; i <= 30; i++) {
-		document.getElementById("idDay" + i).addEventListener("click", function() { clear(); });
-		if (i !== 1 && i !== 7 && i !== 8 && i !== 14 && i !== 15 && i !== 21 && i !== 22 && i !== 28 && i !== 29) {
-		  	let id = "idDay" + i;
-			document.getElementById(id).addEventListener("click", function() { menu(id); });
-		  	document.getElementById("price").addEventListener("click", function() { calculatePrice(id);});
-		}
-	}
-
 }
 
 function clear(){
@@ -57,7 +91,12 @@ function menu(id) {
 	}
 }
 
+function setPrice(id){
+	document.getElementById("idPrice").innerHTML = calculatePrice(id);
+}
+
 function calculatePrice(id){
+	let total = 0;
 	let dayButton = document.getElementById(id);
 	let day = parseInt(dayButton.innerHTML);
 	for (let elem of sis.getMenu()) {
@@ -77,10 +116,10 @@ function calculatePrice(id){
 			if(box3.checked){
 				precio += elem.toString$Dess();
 			}
-			let total = precio * cant.value;
-			document.getElementById("idPrice").innerHTML = total;
+			total = precio * cant.value;
 	  	}
 	}
+	return total;
 }
 
 function loadMenu2() {
