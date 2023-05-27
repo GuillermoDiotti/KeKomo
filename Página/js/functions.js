@@ -1,26 +1,13 @@
 window.addEventListener("load", init);
 let sis = new sistema();
-const fecha = new Date();
+
 
 
 function init() {
-	
-	console.log(fecha.getDate());
-	console.log(fecha.getFullYear());
-	console.log(fecha.getMonth() + 1);
-	console.log(fecha.getHours() + ":" + fecha.getMinutes() + ":" + fecha.getSeconds());
-	console.log(fecha.getMinutes());
-	console.log(fecha.toDateString());
-	console.log(fecha.toLocaleDateString());
-	console.log(fecha.toLocaleString());
-
 	document.getElementById("price").addEventListener("click", calculatePrice);
 	document.getElementById("idReservation").addEventListener("click", reserve);
 	load();
 	action();
-	loadTable();
-	
-	
 	
 }
 
@@ -28,10 +15,7 @@ function loadTable(){
 	let table = document.getElementById("idTablePay");
 	table.innerHTML = "";
 	let data = sis.getReserva();
-	if (data.length == 0){
-		table.innerHTML = "SIN DATOS";
-	}
-	else{
+	if (data.length != 0){
 		let cabezal = table.createTHead();
 		let row = cabezal.insertRow();
 		let cell1 = row.insertCell();
@@ -52,7 +36,7 @@ function loadTable(){
 			let c3 = r.insertCell();
 			c3.innerHTML = elem.toStringPrice();
 			let c4 = r.insertCell();
-			c4.innerHTML = elem.desc;
+			c4.innerHTML = elem.toStringDesc();
 			
 		}
 	}
@@ -60,16 +44,17 @@ function loadTable(){
 
 function reserve(){
 	if(document.getElementById("idPrice").innerHTML != 0){
+		const fecha = new Date();
 		let desc = "";
 		let total = "$" + document.getElementById("idPrice").innerHTML;
 		if(document.getElementById("idOption1").checked){
-			desc += document.getElementById("idMain") + ", ";
+			desc += document.getElementById("idMain").innerHTML + ", ";
 		}
 		if(document.getElementById("idOption2").checked){
-			desc += document.getElementById("idSecondary") + ", ";
+			desc += document.getElementById("idSecondary").innerHTML + ", ";
 		}
 		if(document.getElementById("idOption3").checked){
-			desc += document.getElementById("idDessert");
+			desc += document.getElementById("idDessert").innerHTML;
 		}
 		sis.addReserva(new Reserva(fecha.toLocaleString(), "Felipe Gonzalez", total, desc));
 		loadTable();
