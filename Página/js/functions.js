@@ -14,23 +14,65 @@ function init() {
 	console.log(fecha.toLocaleDateString());
 	console.log(fecha.toLocaleString());
 
-
+	document.getElementById("price").addEventListener("click", calculatePrice);
+	document.getElementById("idReservation").addEventListener("click", reserve);
 	load();
 	action();
+	loadTable();
+	
 	
 	
 }
 
-function reserve(id){
-	if(document.getElementById("idPrice").innerHTML != 0){
-		let dayButton = document.getElementById(id);
-		let day = parseInt(dayButton.innerHTML);
-		for (let elem of sis.getMenu()) {
-			let d = parseInt(elem.Day);
-			if (day === d) {
-				sis.addReserva(new Reserva(fecha.toLocaleString(), "Felipe Gonzalez", "$"+calculatePrice(dayButton), "desc"));
-			}
+function loadTable(){
+	let table = document.getElementById("idTablePay");
+	table.innerHTML = "";
+	let data = sis.getReserva();
+	if (data.length == 0){
+		table.innerHTML = "SIN DATOS";
+	}
+	else{
+		let cabezal = table.createTHead();
+		let row = cabezal.insertRow();
+		let cell1 = row.insertCell();
+		cell1.innerHTML ="Fecha";
+		let cell2 = row.insertCell();
+		cell2.innerHTML ="Usuario";
+		let cell3 = row.insertCell();
+		cell3.innerHTML ="Precio";
+		let cell4 = row.insertCell();
+		cell4.innerHTML ="Descripción";
+
+		for (elem of data){
+			let r = table.insertRow();
+			let c1 = r.insertCell();
+			c1.innerHTML = elem.toStringDate();
+			let c2 = r.insertCell();
+			c2.innerHTML = elem.toStringUser();
+			let c3 = r.insertCell();
+			c3.innerHTML = elem.toStringPrice();
+			let c4 = r.insertCell();
+			c4.innerHTML = elem.desc;
+			
 		}
+	}
+}
+
+function reserve(){
+	if(document.getElementById("idPrice").innerHTML != 0){
+		let desc = "";
+		let total = "$" + document.getElementById("idPrice").innerHTML;
+		if(document.getElementById("idOption1").checked){
+			desc += document.getElementById("idMain") + ", ";
+		}
+		if(document.getElementById("idOption2").checked){
+			desc += document.getElementById("idSecondary") + ", ";
+		}
+		if(document.getElementById("idOption3").checked){
+			desc += document.getElementById("idDessert");
+		}
+		sis.addReserva(new Reserva(fecha.toLocaleString(), "Felipe Gonzalez", total, desc));
+		loadTable();
 	}
 }
 
@@ -40,8 +82,7 @@ function action(){
 		if (i !== 1 && i !== 7 && i !== 8 && i !== 14 && i !== 15 && i !== 21 && i !== 22 && i !== 28 && i !== 29) {
 		  	let id = "idDay" + i;
 			document.getElementById(id).addEventListener("click", function() { menu(id); });
-		  	document.getElementById("price").addEventListener("click", function() { setPrice(id);});
-			document.getElementById("idReservation").addEventListener("click", function() { reserve(id);});
+		  	
 		}
 	}
 }
@@ -91,35 +132,24 @@ function menu(id) {
 	}
 }
 
-function setPrice(id){
-	document.getElementById("idPrice").innerHTML = calculatePrice(id);
-}
-
-function calculatePrice(id){
+function calculatePrice(){
 	let total = 0;
-	let dayButton = document.getElementById(id);
-	let day = parseInt(dayButton.innerHTML);
-	for (let elem of sis.getMenu()) {
-	  	let d = parseInt(elem.Day);
-	  	if (day === d) {
-			let precio = 0;
-			let box1 = document.getElementById("idOption1");
-			let box2 = document.getElementById("idOption2");
-			let box3 = document.getElementById("idOption3");
-			let cant = document.getElementById("idAmount");
-			if(box1.checked){
-				precio += elem.toString$Pri();
-			}
-			if(box2.checked){
-				precio += elem.toString$Alt();
-			}
-			if(box3.checked){
-				precio += elem.toString$Dess();
-			}
-			total = precio * cant.value;
-	  	}
+	let precio = 0;
+	let box1 = document.getElementById("idOption1");
+	let box2 = document.getElementById("idOption2");
+	let box3 = document.getElementById("idOption3");
+	let cant = document.getElementById("idAmount").value;
+	if(box1.checked){
+		precio += 200;
 	}
-	return total;
+	if(box2.checked){
+		precio += 200;
+	}
+	if(box3.checked){
+		precio += 100;
+	}
+	total = precio * cant;
+	document.getElementById("idPrice").innerHTML = total;
 }
 
 function loadMenu2() {
