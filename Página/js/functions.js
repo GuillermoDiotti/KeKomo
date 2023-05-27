@@ -4,11 +4,20 @@ let sis = new sistema();
 function init() {
   document.getElementById("price").addEventListener("click", calculatePrice);
   document.getElementById("idReservation").addEventListener("click", reserve);
+  document.getElementById("idPay").addEventListener("click", pagar);
   load();
   action();
 }
 
+function pagar(){
+	if(document.getElementById("idTablePay").innerHTML != ""){
+		document.getElementById("idTablePay").innerHTML = "";
+		alert("pago exitoso");
+	}
+}
+
 function loadTable() {
+  let tot = 0;
   let table = document.getElementById("idTablePay");
   table.innerHTML = "";
   let data = sis.getReserva();
@@ -31,18 +40,21 @@ function loadTable() {
       let c2 = r.insertCell();
       c2.innerHTML = elem.toStringUser();
       let c3 = r.insertCell();
-      c3.innerHTML = elem.toStringPrice();
+      c3.innerHTML = "$" + elem.toStringPrice();
       let c4 = r.insertCell();
       c4.innerHTML = elem.toStringDesc();
+	  tot += elem.toStringPrice();
     }
+	
   }
+  document.getElementById("idMonto").innerHTML = tot;
 }
 
 function reserve() {
   if (document.getElementById("idPrice").innerHTML != 0) {
     const fecha = new Date();
     let desc = "";
-    let total = "$" + document.getElementById("idPrice").innerHTML;
+    let total = parseInt(document.getElementById("idPrice").innerHTML);
     if (document.getElementById("idOption1").checked) {
       desc += document.getElementById("idMain").innerHTML + ", ";
     }
