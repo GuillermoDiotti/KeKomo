@@ -12,6 +12,7 @@ function init() {
 function pagar(){
 	if(document.getElementById("idTablePay").innerHTML != ""){
 		document.getElementById("idTablePay").innerHTML = "";
+    document.getElementById("idMonto").innerHTML = "";
 		alert("pago exitoso");
 	}
 }
@@ -43,7 +44,7 @@ function loadTable() {
       c3.innerHTML = "$" + elem.toStringPrice();
       let c4 = r.insertCell();
       c4.innerHTML = elem.toStringDesc();
-	  tot += elem.toStringPrice();
+	    tot += elem.toStringPrice();
     }
 	
   }
