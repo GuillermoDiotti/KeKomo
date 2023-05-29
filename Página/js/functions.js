@@ -1,6 +1,7 @@
 window.addEventListener("load", init);
 let sis = new sistema();
 
+
 function init() {
   document.getElementById("price").addEventListener("click", calculatePrice);
   document.getElementById("idReservation").addEventListener("click", reserve);
