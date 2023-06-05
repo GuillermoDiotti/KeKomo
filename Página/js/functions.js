@@ -1,8 +1,11 @@
 window.addEventListener("load", init);
+
+
 let sis = new sistema();
 
 
 function init() {
+  /* eslint-disable max-len */
   document.getElementById("price").addEventListener("click", calculatePrice);
   document.getElementById("idReservation").addEventListener("click", reserve);
   document.getElementById("idPay").addEventListener("click", pagar);
