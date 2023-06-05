@@ -4,25 +4,297 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Proyecto 2023S1</title>
+  <title>Ke Komo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
+  <script src="../domain/classes.js"></script>
+  <script src="../domain/functions.js"></script>
 </head>
 
 <body>
-  <h1>Proyecto 2023S1</h1>
-  <h2>Nuevo país</h2>
-  <label for="inp_nombre">Nombre
-    <input type="text" id="inp_name" name="name">
-  </label>
-  <label for="inp_capital">Capital
-    <input type="text" id="inp_capital" name="capital">
-  </label>
-  <button id="btn_add">Agregar</button>
-  <div id="seccountries">
-    <h2>Lista de países</h2>
+
+  <!-- NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#idInicio">Ke Komo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Franco González
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">He olvidado la contraseña</a></li>
+              <li><a class="dropdown-item" href="#">Cambiar Contraseña</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#idInicio">Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#idInfo">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#idMenu">Ver Menú Mensual</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#idPayment">Estado de Cuenta</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="header">
+    <img id="idLogo" src="img/logo.png" alt="Logo" />
+  </header>
+  <br>
+
+  <!-- CAROUSEL-->
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" class="contenedor">
+        <img src="img/background.png" class="d-block w-100" alt="about us">
+        <a href="#idInfo">
+          <h1 class="centrado"><u>Sobre Nosotros</u></h1>
+        </a>
+      </div>
+      <div class="carousel-item" class="contenedor">
+        <img src="img/background.png" class="d-block w-100" alt="menu">
+        <a href="#idMenu">
+          <h1 class="centrado"><u>Ver Menú Mensual</u></h1>
+        </a>
+      </div>
+      <div class="carousel-item" class="contenedor">
+        <img src="img/background.png" class="d-block w-100" alt="payment">
+        <a href="#idPayment">
+          <h1 class="centrado"><u>Estado de Cuenta</u></h1>
+        </a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
+  <section class="section">
+    <article class="info">
+      <a id="idInfo">
+        <h2>Sobre Nosotros</h2>
+      </a>
+      <p>
+        Somos una empresa la cual se dedica y enfoca con gran esfuerzo
+        al área de comedor dentro de instituciones privadas. Nuestra
+        aparición en el mercado se debe al resultado de una profunda
+        investigación donde se notaba una notoria falta de información
+        dentro de este rubro.
+      </p>
+      <p>
+        Nuestros objetivos se basan en equilibrar y aumentar el nivel de
+        información entre las partes como los miembros de cocina de
+        dicha institución, y aquellos responsables del alumno concurrido
+        al instituto.
+      </p>
+    </article>
+
+
+
+    <article>
+      <a id="idMenu">
+        <h2>Menú Mensual</h2>
+      </a>
+      <div class="calendar">
+        <h6>
+          Instituto: Colegio Jesús María
+          <br>
+          Setiembre
+        </h6>
+        <table>
+          <thead>
+            <tr>
+              <th>Domingo</th>
+              <th>Lunes</th>
+              <th>Martes</th>
+              <th>Miércoles</th>
+              <th>Jueves</th>
+              <th>Viernes</th>
+              <th>Sábado</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay1">1</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay2">2</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay3">3</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay4">4</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay5">5</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay6">6</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay7">7</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay8">8</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay9">9</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay10">10</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay11">11</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay12">12</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay13">13</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay14">14</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay15">15</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay16">16</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay17">17</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay18">18</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay19">19</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay20">20</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay21">21</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay22">22</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay23">23</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay24">24</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay25">25</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay26">26</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay27">27</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay28">28</button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button type="button" class="btn btn-primary" id="dDay29">29</button>
+              </td>
+              <td>
+                <button type="button" class="btn btn-primary" id="idDay30">30</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+    <br>
+    <article>
+      <h1>Detalle:</h1>
+      <br />
+      <h3>Plato Principal:</h3>
+      <label for="idOption1">
+        <p id="idMain"></p>
+      </label>
+      <input type="checkbox" id="idOption1" name="option1" value="option1" />
+      <br>
+      <h3>Plato Alternativo:</h3>
+      <label for="idOption2">
+        <p id="idSecondary"></p>
+      </label>
+      <input type="checkbox" id="idOption2" name="option2" value="option2" />
+      <br>
+      <h3>Postre:</h3>
+      <label for="idOption3">
+        <p id="idDessert"></p>
+      </label>
+      <input type="checkbox" id="idOption3" name="option3" value="option3" />
+      <br>
+      <label for="idAmount">
+        <h3>Cantidad:</h3>
+      </label>
+      <br>
+      <input type="number" id="idAmount" name="amount" class="box" min="0" required />
+      <br>
+      <h3>Precio:</h3>
+      <button class="btn btn-primary" type="button" id="price">Ver Precio</button>
+      <p id="idPrice"></p>
+      <br>
+      <button class="btn btn-primary" type="button" id="idReservation">Reservar</button>
+      <br>
+    </article>
+    <br>
+    <article>
+      <a id="idPayment">
+        <h2>Estado de Cuenta</h2>
+      </a>
+      <div class="div">
+        <table id="idTablePay"></table>
+      </div>
+      <br>
+      <br>
+      <h3>SubTotal:</h3>
+      <p id="idMonto"></p>
+      <button class="btn btn-primary" type="button" id="idPay">Pagar</button>
+    </article>
+
+  </section>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"

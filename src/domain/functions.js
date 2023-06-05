@@ -374,4 +374,3 @@ function loadMenu30() {
   let $dess = 100;
   sis.addMenu(new Menu(30, prDish, altDish, dess, $pri, $alt, $dess));
 }
-
