@@ -3,7 +3,7 @@ window.addEventListener( 'load', inicio );
 function inicio (){
     const btnChef = document.querySelector('.btn-chef');
     const btnResp = document.querySelector('.btn-responsable');
-    const btnSalirResp = document.getElementById('salir');
+    const btnSalirResp = document.querySelector('.salir');
     const botones = [];
     botones.push(btnChef);
     botones.push(btnResp);
@@ -16,6 +16,7 @@ function mostrarInterfaz(id) {
     const login = document.querySelector('.login-bg');
     const responsable = document.querySelector('.responsable');
     const chef = document.querySelector('.chef');
+    const nav = document.querySelector('#nav-salir');
 
     switch (id){
         
@@ -23,16 +24,20 @@ function mostrarInterfaz(id) {
             login.style.display = 'block';
             responsable.style.display = 'none';
             chef.style.display = 'none';
+            nav.style.display = 'none';
             break;
         case 'chef':
             login.style.display = 'none';
             responsable.style.display = 'none';
             chef.style.display = 'block';
+            nav.style.display = 'block';
             break;
         default:
             login.style.display = 'none';
             responsable.style.display = 'block';
             chef.style.display = 'none';
+            nav.style.display = 'block';
+            break;
     }
 
 }

@@ -78,7 +78,7 @@ function reserve() {
 
 function action() {
   for (let i = 1; i <= 30; i++) {
-    document.getElementById("idDay" + i).addEventListener("click", function () {
+    document.getElementById("idDay" + i)?.addEventListener("click", function () {
       clear();
     });
     if (
@@ -374,3 +374,4 @@ function loadMenu30() {
   let $dess = 100;
   sis.addMenu(new Menu(30, prDish, altDish, dess, $pri, $alt, $dess));
 }
+
