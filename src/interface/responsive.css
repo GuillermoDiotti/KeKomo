@@ -1,0 +1,43 @@
+/* Para pantallas pequeñas (hasta 767px de ancho) */
+@media screen and (max-width: 767px) {
+    .section {
+        gap: 5px;
+    }
+
+    .calendar {
+        width: 90%;
+    }
+
+    .article {
+        width: 350px;
+    }
+
+    .modal {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .modal-content {
+        margin: 0 auto;
+    }
+
+    .bt-carousel {
+        height: 250px;
+    }
+}
+
+/* Para pantallas medianas (de 768px a 991px de ancho) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Estilos para pantallas medianas */
+}
+
+/* Para pantallas grandes (a partir de 992px de ancho) */
+@media screen and (min-width: 992px) {
+    /* Estilos para pantallas grandes */
+}
