@@ -13,13 +13,69 @@ function init() {
   action();
 }
 
-function pagar(){
-	if(document.getElementById("idTablePay").innerHTML != ""){
-		document.getElementById("idTablePay").innerHTML = "";
-    document.getElementById("idMonto").innerHTML = "";
-		alert("pago exitoso");
-	}
+function pagar() {
+  if (document.getElementById("idTablePay").innerHTML !== "") {
+      document.getElementById("idTablePay").innerHTML = "";
+      document.getElementById("idMonto").innerHTML = "";
+
+      // Crear el modal
+      var modal = document.createElement("div");
+      modal.className = "modal";
+      modal.id = "modal";
+
+      // Crear el contenido del modal
+      var modalContent = document.createElement("div");
+      modalContent.className = "modal-content";
+
+      var heading = document.createElement("h2");
+      heading.textContent = "Pago en progreso";
+
+      var progressBar = document.createElement("div");
+      progressBar.className = "progress-bar";
+      var progress = document.createElement("div");
+      progress.className = "progress";
+      progressBar.appendChild(progress);
+
+      var successMessage = document.createElement("div");
+      successMessage.className = "success-message";
+      successMessage.textContent = "Pago exitoso!";
+
+      modalContent.appendChild(heading);
+      modalContent.appendChild(progressBar);
+      modalContent.appendChild(successMessage);
+
+      // Agregar el contenido al modal
+      modal.appendChild(modalContent);
+
+      // Agregar el modal al documento
+      document.body.appendChild(modal);
+
+      // Mostrar el modal
+      modal.style.display = "block";
+
+      // Animación de entrada del modal
+      modalContent.style.transform = "translateY(-50%) scale(0.8)";
+      modalContent.style.opacity = 0;
+
+      setTimeout(function() {
+          modalContent.style.transform = "translateY(-50%) scale(1)";
+          modalContent.style.opacity = 1;
+      }, 100);
+
+      // Cerrar el modal después de 2 segundos
+      setTimeout(function() {
+          successMessage.style.display = "block";
+          progress.style.width = "100%";
+
+          setTimeout(function() {
+              modal.style.display = "none";
+              document.body.removeChild(modal);
+          }, 2000);
+      }, 2000);
+  }
 }
+
+
 
 function loadTable() {
   let tot = 0;

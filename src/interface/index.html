@@ -9,6 +9,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet">
   <link rel="stylesheet" href="./tabla.css">
+  <link rel="stylesheet" href="./modal.css">
   <script src="../domain/classes.js"></script>
   <script src="../domain/functions.js"></script>
 </head>
@@ -61,23 +62,23 @@
   <br>
 
   <!-- CAROUSEL-->
-  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleAutoplaying" class="carousel slide bt-carousel" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" class="contenedor">
-        <img src="img/background.png" class="d-block w-100" alt="about us">
-        <a href="#idInfo">
+        <img src="img/sobrenosotros.png" class="d-block w-100 img" alt="about us">
+        <a href="#idInfo" class="carousel-text">
           <h1 class="centrado"><u>Sobre Nosotros</u></h1>
         </a>
       </div>
       <div class="carousel-item" class="contenedor">
-        <img src="img/background.png" class="d-block w-100" alt="menu">
-        <a href="#idMenu">
+        <img src="img/menu.jpg" class="d-block w-100 img" alt="menu">
+        <a href="#idMenu" class="carousel-text">
           <h1 class="centrado"><u>Ver Menú Mensual</u></h1>
         </a>
       </div>
       <div class="carousel-item" class="contenedor">
-        <img src="img/background.png" class="d-block w-100" alt="payment">
-        <a href="#idPayment">
+        <img src="img/estadodecuenta.jpg" class="d-block w-100 img" alt="payment">
+        <a href="#idPayment" class="carousel-text">
           <h1 class="centrado"><u>Estado de Cuenta</u></h1>
         </a>
       </div>
@@ -95,7 +96,7 @@
   </div>
 
   <section class="section">
-    <article class="info">
+    <article class="info article">
       <a id="idInfo">
         <h2>Sobre Nosotros</h2>
       </a>
@@ -116,7 +117,7 @@
 
 
 
-    <article>
+    <article class="calendar-container">
       <a id="idMenu">
         <h2>Menú Mensual</h2>
       </a>
@@ -169,68 +170,7 @@
       </div>
     </article>
     <br>
-    <style>
-      article {
-        max-width: 500px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f2f2f2;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        text-align: center;
-      }
-    
-      h1 {
-        font-size: 24px;
-        margin-bottom: 20px;
-        color: #333;
-      }
-    
-      h3 {
-        font-size: 18px;
-        margin-bottom: 10px;
-        color: #333;
-      }
-    
-      label {
-        display: block;
-        margin-bottom: 10px;
-      }
-    
-      p {
-        margin: 0;
-      }
-    
-      input[type="checkbox"],
-      input[type="number"] {
-        margin-bottom: 10px;
-      }
-    
-      .btn {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 16px;
-        transition: background-color 0.3s ease;
-      }
-    
-      .btn:hover {
-        background-color: #0056b3;
-      }
-    
-      #idPrice {
-        font-size: 18px;
-        margin-top: 10px;
-        color: #333;
-        font-weight: bold;
-      }
-    </style>
-    
-    <article>
+    <article class="article">
       <h1>Detalle:</h1>
       <br />
       <h3>Plato Principal:</h3>
@@ -266,7 +206,7 @@
     </article>
     
     <br>
-    <article>
+    <article class="article">
       <a id="idPayment">
         <h2>Estado de Cuenta</h2>
       </a>
