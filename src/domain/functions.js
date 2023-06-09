@@ -129,6 +129,7 @@ function reserve() {
       new Reserva(fecha.toLocaleString(), "Felipe Gonzalez", total, desc)
     );
     loadTable();
+    clear();
   }
 }
 

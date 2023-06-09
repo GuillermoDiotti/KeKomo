@@ -28,16 +28,23 @@
     }
 
     .bt-carousel {
-        height: 250px;
+        height: max-content;
     }
 }
 
 /* Para pantallas medianas (de 768px a 991px de ancho) */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     /* Estilos para pantallas medianas */
+    .bt-carousel {
+        height: max-content;
+    }
+    
 }
 
 /* Para pantallas grandes (a partir de 992px de ancho) */
 @media screen and (min-width: 992px) {
     /* Estilos para pantallas grandes */
+    .bt-carousel {
+        height: max-content;
+    }
 }
