@@ -3,11 +3,6 @@ body {
   height: 100vh;
 }
 
-.btn {
-  color: white;
-  font-weight: 500;
-}
-
 .grid-container {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
