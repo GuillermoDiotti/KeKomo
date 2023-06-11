@@ -10,6 +10,14 @@ Las principales funciones de nuestro proyecto que implementamos fueron, para emp
 
 ## Interfaz de usuario
 
+La interfaz de usuario tiene la propiedad de ser responsiva. Esto es, que esta se ajusta a todas las pantallas, independientemente del ancho que tengan.
+
+A su vez, para la interfaz de usuario se utilizó una única página, permitiendo la navegación entre distintas secciones de esta.
+
+Algunas de las buenas prácticas de implementaión de front-end que utilizamos son las siguientes:
+- Comentado de las principales funciones y principales procedimientos, especificando qué realizan
+- Las hojas de estilo y scripts utilizados, estan separados en distintos archivos, dividiendo claramente la parte de dominio e intefaz
+- Los distintos archivos del código están formateados por el sistema por defecto de visual code, para así alinear y organizar el código. Posteriormente se ajustan para evitar los errores de la librería eslint
 
 
 ## Codificación

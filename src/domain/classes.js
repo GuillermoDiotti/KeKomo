@@ -1,4 +1,4 @@
-class sistema {
+class Sistema {
   constructor() {
     this.listMenu = [];
     this.listReserva = [];
@@ -23,13 +23,13 @@ class sistema {
 
 class Menu {
   constructor(
-    Day,
-    PrimaryDish,
-    AltDish,
-    Dessert,
-    pricePrimaryDish,
-    priceAltDish,
-    priceDessert
+      Day,
+      PrimaryDish,
+      AltDish,
+      Dessert,
+      pricePrimaryDish,
+      priceAltDish,
+      priceDessert,
   ) {
     this.Day = Day;
     this.PrimaryDish = PrimaryDish;
