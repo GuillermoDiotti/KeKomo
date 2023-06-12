@@ -8,6 +8,8 @@ Las principales funciones de nuestro proyecto que implementamos fueron, para emp
 
 ### Documentación del uso de librerías externas(package.json)
 
+En cuanto a las librerías del package json, solamente utilizamos eslint, el cual indica problemas textuales en html, css y js, y jest, utilizado para testear las funciones implementadas.
+
 ## Interfaz de usuario
 
 La interfaz de usuario tiene la propiedad de ser responsiva. Esto es, que esta se ajusta a todas las pantallas, independientemente del ancho que tengan.

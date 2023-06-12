@@ -1,4 +1,5 @@
-class Sistema {
+/* eslint-disable no-unused-vars */
+export class Sistema {
   constructor() {
     this.listMenu = [];
     this.listReserva = [];
@@ -21,7 +22,8 @@ class Sistema {
   }
 }
 
-class Menu {
+
+export class Menu {
   constructor(
       Day,
       PrimaryDish,
@@ -60,7 +62,7 @@ class Menu {
   }
 }
 
-class Reserva {
+export class Reserva {
   constructor(date, user, price, description) {
     this.date = date;
     this.user = user;
