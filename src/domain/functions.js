@@ -3,9 +3,15 @@ window.addEventListener('load', init);
 
 const sis = new Sistema();
 
-
 function init() {
-  document.getElementById('price').addEventListener('click', calculatePrice);
+  const box1 = document.getElementById('idOption1');
+  const box2 = document.getElementById('idOption2');
+  const box3 = document.getElementById('idOption3');
+  const checkBoxes = [box1, box2, box3];
+  
+  document.getElementById('idAmount').addEventListener('change', calculatePrice);
+  checkBoxes.forEach( c => c.addEventListener('change', calculatePrice) );
+
   document.getElementById('idReservation').addEventListener('click', reserve);
   document.getElementById('idPay').addEventListener('click', pagar);
   load();
@@ -207,6 +213,10 @@ function calculatePrice() {
   const box2 = document.getElementById('idOption2');
   const box3 = document.getElementById('idOption3');
   const cant = document.getElementById('idAmount').value;
+
+  if (!box1.checked && !box2.checked && !box3.checked) document.getElementById('idPrice').innerHTML = 0;
+
+
   if (box1.checked) {
     precio += 200;
   }
