@@ -1,5 +1,9 @@
 /* Para pantallas pequeñas (hasta 767px de ancho) */
 @media screen and (max-width: 767px) {
+    .img {
+        max-height: 233.1px;
+    }
+
     .section {
         gap: 5px;
     }
