@@ -1,28 +1,3 @@
-/* eslint-disable no-unused-vars */
-export class Sistema {
-  constructor() {
-    this.listMenu = [];
-    this.listReserva = [];
-  }
-
-  addMenu(newMenu) {
-    this.listMenu.push(newMenu);
-  }
-
-  getMenu() {
-    return this.listMenu;
-  }
-
-  addReserva(newReserva) {
-    this.listReserva.push(newReserva);
-  }
-
-  getReserva() {
-    return this.listReserva;
-  }
-}
-
-
 export class Menu {
   constructor(
       Day,
@@ -59,27 +34,5 @@ export class Menu {
   }
   toString$Dess() {
     return parseInt(this.priceDessert);
-  }
-}
-
-export class Reserva {
-  constructor(date, user, price, description) {
-    this.date = date;
-    this.user = user;
-    this.price = price;
-    this.description = description;
-  }
-
-  toStringDate() {
-    return this.date;
-  }
-  toStringUser() {
-    return this.user;
-  }
-  toStringPrice() {
-    return this.price;
-  }
-  toStringDesc() {
-    return this.description;
   }
 }

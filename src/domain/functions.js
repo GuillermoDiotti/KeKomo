@@ -1,6 +1,12 @@
+import {Sistema} from './sistema.js';
+import {Menu} from './menu.js';
+import {Reserva} from './reserva.js';
+
+
 window.addEventListener('load', init);
 
 
+// eslint-disable-next-line new-cap
 const sis = new Sistema();
 
 function init() {
@@ -21,9 +27,6 @@ function init() {
 
 function pagar() {
   if (document.getElementById('idTablePay').innerHTML !== '') {
-    document.getElementById('idTablePay').innerHTML = '';
-    document.getElementById('idMonto').innerHTML = '';
-
     // Crear el modal
     const modal = document.createElement('div');
     modal.className = 'modal';
@@ -78,6 +81,9 @@ function pagar() {
         document.body.removeChild(modal);
       }, 2000);
     }, 2000);
+
+    document.getElementById('idTablePay').innerHTML = '';
+    document.getElementById('idMonto').innerHTML = '';
   }
 }
 
@@ -99,7 +105,7 @@ function loadTable() {
     const cell4 = row.insertCell();
     cell4.innerHTML = 'Descripción';
 
-    for (elem of data) {
+    for (const elem of data) {
       const r = table.insertRow();
       const c1 = r.insertCell();
       c1.innerHTML = elem.toStringDate();
@@ -112,14 +118,16 @@ function loadTable() {
       tot += elem.toStringPrice();
     }
   }
-  document.getElementById('idMonto').innerHTML = tot;
+  document.getElementById('idMonto').innerHTML = '$' +tot;
 }
 
 function reserve() {
-  if (document.getElementById('idPrice').innerHTML != 0) {
+  if (document.getElementById('idPrice').innerHTML != 0 &&
+            document.getElementById('idMain').innerHTML != '') {
     const fecha = new Date();
     let desc = '';
-    const total = parseInt(document.getElementById('idPrice').innerHTML);
+    const total = parseInt(document.getElementById('idPrice')
+        .innerHTML.substring(1));
     if (document.getElementById('idOption1').checked) {
       desc += document.getElementById('idMain').innerHTML + ', ';
     }
@@ -157,6 +165,8 @@ function action() {
       document.getElementById(id).addEventListener('click', function() {
         menu(id);
       });
+    } else {
+      clear();
     }
   }
 }
@@ -192,6 +202,9 @@ function clear() {
   document.getElementById('idOption3').checked = false;
   document.getElementById('idPrice').innerHTML = 0;
   document.getElementById('idAmount').value = 0;
+  document.getElementById('idMain').innerHTML = '';
+  document.getElementById('idSecondary').innerHTML = '';
+  document.getElementById('idDessert').innerHTML = '';
 }
 
 function menu(id) {
@@ -229,7 +242,7 @@ function calculatePrice() {
     precio += 100;
   }
   total = precio * cant;
-  document.getElementById('idPrice').innerHTML = total;
+  document.getElementById('idPrice').innerHTML = '$'+ total;
 }
 
 function loadMenu2() {
