@@ -2,9 +2,9 @@ import {Sistema} from './sistema.js';
 import {Menu} from './menu.js';
 import {Reserva} from './reserva.js';
 
+alert('corregir color');
 
 window.addEventListener('load', init);
-
 
 // eslint-disable-next-line new-cap
 const sis = new Sistema();

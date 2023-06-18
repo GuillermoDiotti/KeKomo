@@ -24,6 +24,14 @@ Algunas de las buenas prácticas de implementaión de front-end que utilizamos s
 
 ## Codificación
 
+Como IDE para la implementación de este proyecto, ambos integrantes del equipo utilizamos la aplicación de Visual Studio Code.
+
+Para la implementación del código, para generar una codificación limpia y legible, utilizamos el estandar de codificación de Google.
+
+Como buena práctica de codificación, mencionada en la sección anterior, los archivos codificados fueron divididos en distintas carpetas, separando la parte lógica de la interfaz.
+
+
+
 ## Test unitario
 
 ## Reflexión
