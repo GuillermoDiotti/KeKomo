@@ -34,4 +34,8 @@ Como buena práctica de codificación, mencionada en la sección anterior, los a
 
 ## Test unitario
 
+La codificación del dominio fue cubierta al 100% bajo test unitarios. A continuacion se adjunta la evidencia
+
+![TEST](../imagenes/jest.png)
+
 ## Reflexión
