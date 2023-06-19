@@ -19,8 +19,11 @@ A su vez, para la interfaz de usuario se utilizó una única página, permitiend
 Algunas de las buenas prácticas de implementaión de front-end que utilizamos son las siguientes:
 - Comentado de las principales funciones y principales procedimientos, especificando qué realizan
 - Las hojas de estilo y scripts utilizados, estan separados en distintos archivos, dividiendo claramente la parte de dominio e intefaz
-- Los distintos archivos del código están formateados por el sistema por defecto de visual code, para así alinear y organizar el código. Posteriormente se ajustan para evitar los errores de la librería eslint
+- Los distintos archivos del código están formateados por el sistema por defecto de visual code, para así alinear y organizar el código. Posteriormente se ajustan para evitar los errores de la librería eslint.
 
+En su mayoría, se intenta seguir con la especificación de estilo dictada en la especificación del proyecto realizado.
+
+Por último, se cumple con el estándar de accesibilidad de WCAG, eliminando la totalidad de errores existentes. 
 
 ## Codificación
 
