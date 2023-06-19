@@ -4,6 +4,14 @@
   height: 150px;
 }
 
+body{
+  background-color: gray;
+}
+
+.p-data{
+  font-weight: bold;
+}
+
 .centrado {
   font-weight: bold;
   color: white;

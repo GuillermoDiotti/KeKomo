@@ -2,9 +2,11 @@ import {Sistema} from './sistema.js';
 import {Menu} from './menu.js';
 import {Reserva} from './reserva.js';
 
-alert('corregir color');
-
 window.addEventListener('load', init);
+
+const labelMain = document.getElementById('idLabelMain');
+const labelSec = document.getElementById('idLabelSecondary');
+const labelDess = document.getElementById('idLabelDessert');
 
 // eslint-disable-next-line new-cap
 const sis = new Sistema();
@@ -28,59 +30,68 @@ function init() {
 function pagar() {
   if (document.getElementById('idTablePay').innerHTML !== '') {
     // Crear el modal
-    const modal = document.createElement('div');
-    modal.className = 'modal';
-    modal.id = 'modal';
+const modal = document.createElement('div');
+modal.className = 'modal';
+modal.id = 'modal';
 
-    // Crear el contenido del modal
-    const modalContent = document.createElement('div');
-    modalContent.className = 'modal-content';
+// Crear el contenido del modal
+const modalContent = document.createElement('div');
+modalContent.className = 'modal-content';
 
-    const heading = document.createElement('h2');
-    heading.textContent = 'Pago en progreso';
+const heading = document.createElement('h2');
+heading.textContent = 'Pago en progreso';
 
-    const progressBar = document.createElement('div');
-    progressBar.className = 'progress-bar';
-    const progress = document.createElement('div');
-    progress.className = 'progress';
-    progressBar.appendChild(progress);
+const progressBar = document.createElement('div');
+progressBar.className = 'progress-bar';
+const progress = document.createElement('div');
+progress.className = 'progress';
+progressBar.appendChild(progress);
 
-    const successMessage = document.createElement('div');
-    successMessage.className = 'success-message';
-    successMessage.textContent = 'Pago exitoso!';
+const successMessage = document.createElement('div');
+successMessage.className = 'success-message';
+successMessage.textContent = 'Pago exitoso!';
 
-    modalContent.appendChild(heading);
-    modalContent.appendChild(progressBar);
-    modalContent.appendChild(successMessage);
+modalContent.appendChild(heading);
+modalContent.appendChild(progressBar);
+modalContent.appendChild(successMessage);
 
-    // Agregar el contenido al modal
-    modal.appendChild(modalContent);
+// Agregar el contenido al modal
+modal.appendChild(modalContent);
 
-    // Agregar el modal al documento
-    document.body.appendChild(modal);
+// Agregar el modal al documento
+document.body.appendChild(modal);
 
-    // Mostrar el modal
-    modal.style.display = 'block';
+// Mostrar el modal
+modal.style.display = 'block';
 
-    // Animación de entrada del modal
-    modalContent.style.transform = 'translateY(-50%) scale(0.8)';
-    modalContent.style.opacity = 0;
+// Animación de entrada del modal
+modalContent.style.transform = 'translateY(-50%) scale(0.8)';
+modalContent.style.opacity = 0;
 
-    setTimeout(function() {
-      modalContent.style.transform = 'translateY(-50%) scale(1)';
-      modalContent.style.opacity = 1;
-    }, 100);
+setTimeout(function() {
+  modalContent.style.transform = 'translateY(-50%) scale(1)';
+  modalContent.style.opacity = 1;
+}, 100);
 
-    // Cerrar el modal después de 2 segundos
-    setTimeout(function() {
-      successMessage.style.display = 'block';
-      progress.style.width = '100%';
+// Cerrar el modal después de 2 segundos
+setTimeout(function() {
+  successMessage.style.display = 'block';
+  progress.style.width = '100%';
 
-      setTimeout(function() {
-        modal.style.display = 'none';
-        document.body.removeChild(modal);
-      }, 2000);
-    }, 2000);
+  setTimeout(function() {
+    modal.style.display = 'none';
+    document.body.removeChild(modal);
+  }, 2000);
+}, 2000);
+
+// Verificar si es una pantalla móvil y centrar el modal
+if (window.innerWidth <= 767) {
+  modalContent.style.position = 'fixed';
+  modalContent.style.top = '45%';
+  modalContent.style.left = '25%';
+  modalContent.style.transform = 'translate(-50%, -50%)';
+}
+
 
     document.getElementById('idTablePay').innerHTML = '';
     document.getElementById('idMonto').innerHTML = '';
@@ -122,6 +133,7 @@ function loadTable() {
 }
 
 function reserve() {
+
   if (document.getElementById('idPrice').innerHTML != 0 &&
             document.getElementById('idMain').innerHTML != '') {
     const fecha = new Date();

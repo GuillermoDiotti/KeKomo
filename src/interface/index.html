@@ -177,35 +177,30 @@
     <br>
 
     <!-- sección que indica información sobre el menú del día seleccionado -->
-    <article class="article">
+    <article class="article" id="menuArticle">
       <h1>Detalle:</h1>
       <br />
-      <h3>Plato Principal:</h3>
-      <label for="idOption1">
-        <p id="idMain"></p>
-      </label>
+      <label id="idLabelMain" for="idOption1">Plato Principal:</label>
+      <p id="idMain" class="p-data"></p>
       <input type="checkbox" id="idOption1" name="option1" value="option1" />
       <br>
-      <h3>Plato Alternativo:</h3>
-      <label for="idOption2">
-        <p id="idSecondary"></p>
-      </label>
+      <label id="idLabelSecondary" for="idOption2">Plato Alternativo:</label>
+      <div id="secDiv">
+      <p id="idSecondary" class="p-data"></p>
       <input type="checkbox" id="idOption2" name="option2" value="option2" />
       <br>
-      <h3>Postre:</h3>
-      <label for="idOption3">
-        <p id="idDessert"></p>
-      </label>
+      <label id="idLabelDessert" for="idOption3">Postre:</label>
+      <p id="idDessert" class="p-data"></p>
       <input type="checkbox" id="idOption3" name="option3" value="option3" />
       <br>
-      <label for="idAmount">
+      <label id="idLabelAmount" for="idAmount">
         <h3>Cantidad:</h3>
       </label>
       <br>
       <input type="number" id="idAmount" name="amount" class="box" min="0" required />
       <br>
       <h3>Precio:</h3>
-      <p id="idPrice"></p>
+      <p id="idPrice" class="p-data"></p>
       <br>
       <button class="btn btn-primary" type="button" id="idReservation">Reservar</button>
       <br>
@@ -225,7 +220,7 @@
       <br>
       <h3>SubTotal:</h3>
       <p id="idMonto"></p>
-      <button type="button" class="btn btn-primary" id="idPay"> Pagar
+      <button type="button" class="btn btn-primary" id="idPay" style="background-color: black;"> Pagar
       </button>
     </article>
 
