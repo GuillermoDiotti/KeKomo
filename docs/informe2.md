@@ -42,3 +42,11 @@ La codificación del dominio fue cubierta al 100% bajo test unitarios. A continu
 ![TEST](../imagenes/jest.png)
 
 ## Reflexión
+
+### Técnicas aplicadas y aprendizajes
+
+### Detalle del trabajo individual
+
+#### Guillermo Diotti
+
+#### Juan Peyrot

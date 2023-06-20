@@ -19,7 +19,7 @@ body{
   color: #fff;
   font-weight: bold;
   border-radius: 4px 4px 0 0;
-}
+} 
 
 .grid-container button {
   width: 100%;
@@ -31,8 +31,7 @@ body{
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-
-.grid-container button:hover {
+on:hover {
   background-color: rgb(26, 173, 26);
 }
 
