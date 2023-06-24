@@ -56,6 +56,12 @@ La codificación del dominio fue cubierta al 100% bajo test unitarios en Jest. A
 Durante esta segunda entrega del proyecto, tuvimos a disposición varias herramientas que nos facilitaron la elaboración de lo que sería el "producto final". Al comienzo, nos costó definir como resultaría ser la interfaz de la página en general, respetando la restriccion de únicamente elaborar una página. Tuvimos que evaluar si pondríamos toda la información en una misma sección, de modo que el usuario fuese desplayandose hacia abajo para verla toda, hasta lo que sería como verdaderamente fué realizado, que fue la información puesta en distintas secciones y únicamente mostrando en la página dependiendo de la interacción que haga el usuario.
 Aprendimos a trabajar con librerías como EsLint y Jest, las cuales brindaron una increible utilidad y aporte al trabajo, para así poder generar una codificación más "limpia" y entendible dentro del mismo equipo.
 
+### Cambios pendientes
+Una vez ya hecha la entrega final de la parte de codificación, al volver a probar el resultado final de la página, hemos notado de que nos quedaron pendientes algunos cambios. Para empezar, seleccionando un día en el calendario, el sistema te permite ingresar una reserva sin haber seleccionando ninguna casilla de plato principal, alternativo o postre, solamente poniendo una cantidad mayor a cero. Esto no debería de suceder. El error se puede observar con mayor facilidad en la sección de Estado de Cuenta, donde la descripción del encargo realizado, resulta ser nula. A continuación se puede ver con facilidad el error.
+![MISTAKE](../imagenes/error.png)
+
+A su vez, hubiese estado bueno implementar alguna sección donde se indique el saldo del usuario, y permitir a este último reservar alimentos mientras su saldo no sea nulo
+
 ### Detalle del trabajo individual
 
 #### Guillermo Diotti
