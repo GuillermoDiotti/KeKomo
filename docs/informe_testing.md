@@ -3,6 +3,43 @@ Proyecto asignado: [https://github.com/ORT-FIS-2023S1/proyecto-aristimuno-bia-go
 
 ## Test de sistema
 
+### Detalles de sesiones de pruebas exploratorias
+
+#### Sesión1
+- Aplicación bajo prueba: Interfaz de Usuario
+- Unidad de Tiempo: Corta
+- Objetivo: Validar que la apariencia la aplicación a similar en distintos navegadores
+- Tester: Guillermo Diotti
+- Notas: En general, se observa un gran trabajo, sin embargo, para determinado tamaño de pantalla, se puede observar una inconsistencia, reportándola como issue en el bloque siguiente, Reporte de issues, en el aspecto a mejorar número 7
+
+#### Sesión2
+- Aplicación bajo prueba: Interfaz de Usuario
+- Unidad de Tiempo: Corta
+- Objetivo: Validar que la gramática y ortografía sean correctas en todo el sitio
+- Tester: Guillermo Diotti
+- Notas: En general, se observa un gran trabajo, sin embargo, se omiten algunas acentuaciones y algunas mayúsculas. Un ejemplo de acentuación se puede ver en la página principal, donde uno de los datos que se muestra es el Número de Identificación del estudiante, la palabra identidicación allí esta escrita sin tilde
+
+#### Sesión3
+- Aplicación bajo prueba: Interfaz de Usuario
+- Unidad de Tiempo: Corta
+- Objetivo: Validar consistencia en los distintos mensajes que emite la aplicación
+- Tester: Guillermo Diotti
+- Notas: En esta sesión, se pudieron observar algunas inconsistencias y errores a cambiar. Dichas temáticas fueron tratadas dentro de la sección Reporte de issues, en el error número 1, y error número 2 
+
+#### Sesión4
+- Aplicación bajo prueba: Interfaz de Usuario
+- Unidad de Tiempo: Corta
+- Objetivo: Combrobar valores límite los ditintos campos del formulario de ingreso del saldo
+- Tester: Guillermo Diotti
+- Notas: En esta sesión, para empezar, se pudo observar el correcto funcionamiento la mínima cota del saldo, pero por el otro lado, se vieron algunas inquietudes tratadas en los aspectos a mejorar número 1 y 2
+
+#### Sesión5
+- Aplicación bajo prueba: Interfaz de Usuario
+- Unidad de Tiempo: Corta
+- Objetivo: Validar el correcto funcionamiento de la reserva de un menú
+- Tester: Guillermo Diotti
+- Notas: Para la mayoría de los días, esta función funciona a la perfección, sin embargo, en el error número 3 se pueden ver aspectos que deben cambiarse para que su funcionamiento sea óptimo
+
 ## Reporte de issues
 Los issues propuestos se los podrían clasificar en errores y aspectos a mejorar
 A su vez, se los clasifican en base a su prioridad, pudiendo esta ser de "Alta" prioridad, o "Baja" prioridad, o prioridad "media"
