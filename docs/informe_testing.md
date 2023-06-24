@@ -15,12 +15,12 @@ A su vez, se los clasifican en base a su prioridad, pudiendo esta ser de "Alta" 
 En la sección del Calendario, hay una alerta que dice que no se puede seleccionar ni un sabado ni domingo en el calendario, sin embargo, hay sabados o domingos en donde la alerta que te pone es distinta
 
 ##### Pasos para visualizar el issue
-1 - Ir a la sección de Calendario
-2 - Seleccionar el día 17/06/2023, el cual es un Sabado, en el calendario
-3 - Presionar el botón Buscar
-4 - Verificar como aparece la alerta "No se pueden seleccionar los días sábado y domingo"
-5 - Seleccionar el día 01/07/2023, el cual es un Sabado, en el calendario
-6 - Presionar el botón buscar
+- 1. Ir a la sección de Calendario
+- 2. Seleccionar el día 17/06/2023, el cual es un Sabado, en el calendario
+- 3. Presionar el botón Buscar
+- 4. Verificar como aparece la alerta "No se pueden seleccionar los días sábado y domingo"
+- 5. Seleccionar el día 01/07/2023, el cual es un Sabado, en el calendario
+- 6. Presionar el botón buscar
 
 ##### Resultado
 Aunque el último día de estos seleccionado es un Sábado, la alerta que aparece es distinta, por lo cual no se mantiene la alerta "No se pueden seleccionar los días sábado y domingo" durante todos los Sábados o Domingos
@@ -37,11 +37,11 @@ En la sección del Calendario, hay una alerta que dice "seleccione una fecha a p
 ##### Pasos para visualizar el issue
 Esta prueba fue realizada el día Sábado 24/06/2023, por lo cual el llamado "día actual", sería dicho día
 
-1 - Ir a la sección de Calendario
-2 - Seleccionar, por ejemplo, la fecha 09/06/2023 en el calendario y presionar Buscar
-3 - Ver como el error o aviso aparecido menciona "Por favor seleccione una fecha a partir de mañana", dando por entender de que solamente se podría elegir un menú a partir del día siguiente del día actual, siendo este caso a partir del 10/06/2023
-4 - Seleccionar el día 23/06/2023 en el calendario, siendo un día anterior al llamado día actual en este ejemplo, y seleccionar Buscar
-5 - Ver como no aparece ninguna alerta y el sistema te permite a su vez realizar una reserva para dicho día
+- 1. Ir a la sección de Calendario
+- 2. Seleccionar, por ejemplo, la fecha 09/06/2023 en el calendario y presionar Buscar
+- 3. Ver como el error o aviso aparecido menciona "Por favor seleccione una fecha a partir de mañana", dando por entender de que solamente se podría elegir un menú a partir del día siguiente del día actual, siendo este caso a partir del 10/06/2023
+- 4. Seleccionar el día 23/06/2023 en el calendario, siendo un día anterior al llamado día actual en este ejemplo, y seleccionar Buscar
+- 5. Ver como no aparece ninguna alerta y el sistema te permite a su vez realizar una reserva para dicho día
 
 ##### Resultado
 Se puede observar una inconsistencia sobre a partir de cuál día se podría hacer una reserva de un plato, te sigue dejando hacer pedidos antes que el día actual
@@ -56,14 +56,14 @@ Alta
 En un mismo día, hay platos los cuales no te los deja reservar más de una vez
 
 ##### Pasos para visualizar el issue
-1 -  Dirigirse a la seccion de calendario
-2 - Seleccionar 27/06/2023 en el calendario y presionar Buscar
-3 - Agregar una reserva de Pechuga a la plancha con ensalada, el cual es el primer plato en la lista de menús para tal día
-4 - Dirigirse a la sección de registro de consumo y ver como este plato fue añadido
-5 - Verificar cómo el saldo disminuyó al pedir el plato
-6 - Repetir pasos de 2 y 3
-7 - Al ir a la sección de consumo se puede ver que este último no fue agregado
-8 - Al ir a la sección del registro de saldo, se puede verificar que el saldo no descontó este último plato, el plato no fue agregado
+- 1. Dirigirse a la seccion de calendario
+- 2. Seleccionar 27/06/2023 en el calendario y presionar Buscar
+- 3. Agregar una reserva de Pechuga a la plancha con ensalada, el cual es el primer plato en la lista de menús para tal día
+- 4. Dirigirse a la sección de registro de consumo y ver como este plato fue añadido
+- 5. Verificar cómo el saldo disminuyó al pedir el plato
+- 6. Repetir pasos de 2 y 3
+- 7. Al ir a la sección de consumo se puede ver que este último no fue agregado
+- 8. Al ir a la sección del registro de saldo, se puede verificar que el saldo no descontó este último plato, el plato no fue agregado
 
 ##### Resultado
 Se puede observar que para un mismo día, no se pueden reservar más de un mismo plato. Este error no ocurre con todos los platos, sin embargo, no debería ocurrir
