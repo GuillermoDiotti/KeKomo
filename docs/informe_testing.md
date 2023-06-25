@@ -168,9 +168,9 @@ Mas allá de los errores aclarados arriba, es una página que para su propósito
 En cuanto al diseño se refiere, este es uno de los puntos más débiles de este proyecto, pues da la sensacion de haberse hecho con la metodología mobile-first y luego a la hora de llegar a resoluciones mas grandes el diseño es exactamente el mismo. No se aprovecha todo el tamaño correctamente para todas las dimensiones y hace que se vea de poca calidad.
 Asimismo, se denota mucho la monotonía; no se implementa el uso de imagenes, iconos, secciones, etc. que otorgen algo "extra" en cuanto a diseño nos referimos. 
 Otro punto en contra a destacar es que ya viene con datos precargados (por ejemplo, saldo, ordenes, etc), cosa que limita algunas funcionalidades que pudieron ser implementadas en la lógica para hacer mejor la experiencia de uso, lo que en parte, hace sentir limitado nuestro actuar en ella.
-En síntesis, (sin mencionar los errores ya aclarados anteriormente) es una página que cumple con su propósito, pero escatima bastante en los detalles y funcionalidades, dejando un poco de lado experiencia de usuario.
 
 ## Reflexión
+En síntesis, (sin mencionar los errores ya aclarados anteriormente) es una página que cumple con su propósito, pero escatima bastante en los detalles y funcionalidades, dejando un poco de lado experiencia de usuario, sería deseable poder contar con detalles que pudiesen mejorar la misma.
 
     
 
