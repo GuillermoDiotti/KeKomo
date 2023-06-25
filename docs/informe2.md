@@ -69,3 +69,5 @@ Por mi parte, mi participación del trabajo se basó en la creación de las clas
 Por otro lado, tanto para la elaboración del arhivo html, el archivo JavaScript de la interfaz de usuario y demás, fue realizado grupal y equitativamente en conjunto.
 
 #### Juan Peyrot
+Mi participacion estuvo orientada, por un lado, al apartado estetico de la pagina, agregando los estilos adecuados a la misma, ya sea desde CSS puro o Bootstrap (puesto que este era requerido en el trabajo). Tambien aporte la idea de la "navegacion" dentro de la pagina, ya que se nos pedia que esta fuese SPA sin usar algun framework/libreria, por lo que se opto por mostrar las diferentes partes de la pagina alternando los valores de la propiedad display de CSS a diferentes elementos HTML. Conjuntamente, llevamos a cabo implementaciones en la funcionalidad de la pagina.
+Finalmente, me ocupe de terminar de hacer cumplir los estandares WCAG, y retocar el codigo en base a ello y eliminando CSS/HTML/JS que no se utilizaba en la version mas reciente.
