@@ -40,6 +40,12 @@ Proyecto asignado: [https://github.com/ORT-FIS-2023S1/proyecto-aristimuno-bia-go
 - Tester: Guillermo Diotti
 - Notas: Para la mayoría de los días, esta función funciona a la perfección, sin embargo, en el error número 3 se pueden ver aspectos que deben cambiarse para que su funcionamiento sea óptimo
 
+### Casos de prueba
+![CP](../imagenes/CasosP.png)
+![CP](../imagenes/CP.png)
+
+Debido a la falta de campos y por la limitada experiencia de usuario, no pudimos encontrar otra sección a la cual realizarle la técnica de partición equivalente
+
 ## Reporte de issues
 Los issues propuestos se los podrían clasificar en errores y aspectos a mejorar
 A su vez, se los clasifican en base a su prioridad, pudiendo esta ser de "Alta" prioridad, o "Baja" prioridad, o prioridad "media"
@@ -69,16 +75,9 @@ Alta
 #### Error2
 
 ##### Resúmen del problema
-En la sección del Calendario, hay una alerta que dice "seleccione una fecha a partir de mañana", sin embargo, no se puede distinguir con total claridad a qué día se refiere con mañana y qué día es el que se considera como día actual para así verificar que se seleccione a partir del día siguiente
-
-##### Pasos para visualizar el issue
-Esta prueba fue realizada el día Sábado 24/06/2023, por lo cual el llamado "día actual", sería dicho día
-
-- 1. Ir a la sección de Calendario
-- 2. Seleccionar, por ejemplo, la fecha 09/06/2023 en el calendario y presionar Buscar
-- 3. Ver como el error o aviso aparecido menciona "Por favor seleccione una fecha a partir de mañana", dando por entender de que solamente se podría elegir un menú a partir del día siguiente del día actual, siendo este caso a partir del 10/06/2023
-- 4. Seleccionar el día 23/06/2023 en el calendario, siendo un día anterior al llamado día actual en este ejemplo, y seleccionar Buscar
-- 5. Ver como no aparece ninguna alerta y el sistema te permite a su vez realizar una reserva para dicho día
+En la sección del Calendario, hay una alerta que dice "seleccione una fecha a partir de mañana", sin embargo, no se puede distinguir con total claridad a qué día se refiere con "mañana" y qué día es el que se considera como día actual para así verificar que se seleccione a partir del día siguiente
+Hay casos erróneos en varios ámbitos. Para empezar, la alerta "seleccione una fecha a partir de mañana" resulta redundante ya que en algunos casos, seleccionando el mismo día en el que se está, se puede elegir un menú. Por ejemplo, el día actual de esta prueba es el 26/06/2023. Teniendo en cuenta la alerta anteriormente mencionada, solamente se podría elegir un menú a partir del día siguiente, aunque esto no es así, en el día 26/06/2023 a su vez se puede reservar.
+Por otro lado, supongamos el día 19/06/2023, el cual es un día que ya pasó, si se fija, el sistema permite elegir un plato para este día, por lo que no tiene sentido
 
 ##### Resultado
 Se puede observar una inconsistencia sobre a partir de cuál día se podría hacer una reserva de un plato, te sigue dejando hacer pedidos antes que el día actual
