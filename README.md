@@ -23,3 +23,5 @@ Testing de proyecto asignado
 En cada entrega se realiza un informe académico que debe dar evidencia de las actividades realizadas y explicar la aplicación de buenas prácticas. Incluir en el informe una reflexión sobre las técnicas de ingeniería de software y los aprendizajes del proyecto.
 
 Trabajo individual: detallar las actividades realizadas por cada integrante del equipo, en el informe académico y mediante commits en el repositorio. Cada integrante debe realizar actividades en todas las áreas indicadas en esta letra.
+
+# [Deployment](https://guillermodiotti.github.io/KeKomo/)
