@@ -91,9 +91,13 @@ function pagar() {
 
     document.getElementById('idTablePay').innerHTML = '';
     document.getElementById('idMonto').innerHTML = '';
+    removeReserves();
   }
 }
 
+function removeReserves(){
+  sis.vaciarReservas();
+}
 
 function loadTable() {
   let tot = 0;
@@ -129,7 +133,7 @@ function loadTable() {
 }
 
 function reserve() {
-  if (document.getElementById('idPrice').innerHTML != 0 &&
+  if (document.getElementById('idPrice').innerHTML > 0 &&
             document.getElementById('idMain').innerHTML != '') {
     const fecha = new Date();
     let desc = '';

@@ -16,6 +16,10 @@ export class Sistema {
     this.listReserva.push(newReserva);
   }
 
+  vaciarReservas() {
+    this.listReserva = [];
+  }
+
   getReserva() {
     return this.listReserva;
   }
