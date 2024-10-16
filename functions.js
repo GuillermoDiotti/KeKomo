@@ -1,6 +1,6 @@
-import {Sistema} from '../domain/sistema.js';
-import {Menu} from '../domain/menu.js';
-import {Reserva} from '../domain/reserva.js';
+import {Sistema} from './sistema.js';
+import {Menu} from './menu.js';
+import {Reserva} from './reserva.js';
 
 window.addEventListener('load', init);
 
